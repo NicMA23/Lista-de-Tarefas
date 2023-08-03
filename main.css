@@ -13,7 +13,7 @@ section {
     background-image: url('/imgs/bg.jpg');
     background-size: cover;
     background-position: center;
-    animation: backGroundAnimation 20s linear infinite;
+    animation: backGroundAnimation 10s linear infinite;
 }
 
 @keyframes backGroundAnimation {
@@ -24,7 +24,7 @@ section {
 
 .container {
     width: 400px;
-    height: 90vh;
+    height: 92vh;
     background-color: rgb(32, 230, 14);
     background: transparent;
     display: grid;
@@ -40,6 +40,8 @@ section {
 header {
     margin-top: 50px;
     height: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 form {
@@ -49,6 +51,7 @@ form {
 
 input,
 button {
+    height: 30px;
     padding: 4px;
     border: none;
     border-radius: 5px;
@@ -65,7 +68,7 @@ button:hover {
 /*main*/
 
 main {
-    margin-top: 40px;
+    margin-top: 27px;
     height: 100%;
     margin-bottom: 120%;
     max-height: 100%;
@@ -73,7 +76,8 @@ main {
 }
 
 .task {
-    width: fit-content;
+    width: 90%;
+    word-wrap: break-word;
     color: #fff;
     margin-left: 20px;
     font-weight: 500;
