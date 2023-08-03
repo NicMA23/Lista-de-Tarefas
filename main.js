@@ -8,7 +8,6 @@ $(document).ready(function () {
         const newItem = $(`<li class="task">${addTask}</li>`)
 
         $(newItem).appendTo('ul')
-        $(addTask).fadeIn(5000)
 
         $('#input').val('')
     })
